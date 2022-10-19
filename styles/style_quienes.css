@@ -1,0 +1,186 @@
+body{
+    margin:0;
+    font-family: Poppins;
+}
+.presentation{
+    
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    background-image: url(../images/reina_ARU.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.presentation nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.presentation nav ul{
+    display: flex;
+    list-style: none;
+}
+.presentation nav ul a{
+    text-decoration: none;
+    color: gainsboro;
+    transition: 1s;
+}
+.presentation nav ul a:hover{
+    font-size: 1.4vw;
+    color: black;
+
+}
+.presentation nav ul li{
+    margin-right: 2vw;
+}
+
+.presentation .presentation-info{
+    width: 100%;
+    margin-top: 20vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.presentation .presentation-info h1{
+    font-size: 5vw;
+    text-shadow: 1px 1px 2px black;
+    transition:1s;
+    color: azure;
+}
+.presentation .presentation-info h3{
+    font-size: 2vw;
+    color: azure;
+    text-shadow: 1px 1px 2px black;
+}
+.presentation .presentation-info a{
+    text-decoration: none;
+    
+}
+.presentation .presentation-info a:hover h1{
+    font-size: 6vw;
+}
+.presentation .contacto{
+    padding-top: 2vh;
+    margin: auto;
+
+    height: 100vh;
+    background-color: #000000f1;
+    box-shadow:1px 1px 2px rgb(10, 10, 10);
+}
+/*Contacto.html*/
+.presentation .contacto ul{
+    text-align: left;
+    list-style: none;
+    color: white;
+    font-size: 2vw;
+}
+.presentation .contacto ul li{
+    justify-self: center;
+    margin-top: 7vh;
+}
+.presentation .contacto ul li a{
+    
+    text-decoration: none;
+    color: white;
+    background-color: #749F82;
+    padding: 1vw;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px 2px black;
+    transition: 0.5s;
+
+}
+.presentation .contacto ul li a:hover{
+    font-size: 2.2vw;
+}
+/* MAIN */
+main{
+    width: 100%;
+}
+main .content-1{
+    height: 30vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 8vw;
+    padding-bottom: 10vw;
+
+}
+main .content-1 .content-1-der{
+    text-align: center;
+    width: 50%;
+}
+main .content-1 .content-1-izq{
+    width: 50%;
+}
+main .content-1 .content-1-izq img{
+    width: 30vw;
+    border-radius: 20px;
+}
+/*Content 2*/
+main .content-2{
+    height: 40vh;
+    background-color: #749F82;
+    color: white;
+    display: flex;
+    padding: 8vw;
+    padding-bottom: 10vw;
+
+}
+main .content-2 .content-2-der{
+    text-align: center;
+    width: 50%;
+}
+main .content-2 .content-2-izq{
+    width: 50%;
+    margin-left: 5vw;
+}
+main .content-2 .content-2-izq img{
+    width: 40vw;
+    border-radius: 20px;
+}
+/*Content 3*/
+main .content-3{
+    height: auto;
+    background-color: #7D6E83;
+    color: white;
+    display: flex;
+    padding: 8vw;
+    padding-bottom: 10vw;
+
+}
+main .content-3 .content-3-der{
+    padding-left: 10vw;
+    text-align: center;
+    width: 50%;
+}
+ain .content-3 .content-3-izq{
+    width: 50%;
+}
+main .content-3 .content-3-izq img{
+    width: 30vw;
+    border-radius: 20px;
+}
+/*Content 4*/
+main .content-4{
+    height: 30vh;
+    background-color: #181818;
+    color: white;
+    display: flex;
+    padding-top: 8vw;
+    padding-left: 5vw;
+    padding-bottom: 10vw;
+
+}
+main .content-4 img{
+    width: 25vw;
+    height: 25vh;
+    border-radius: 20px;
+    margin-right: 10vw;
+    transition: 1s;
+}
+main .content-4 img:hover{
+    width: 27vw;
+    height: 27vh;
+
+}
