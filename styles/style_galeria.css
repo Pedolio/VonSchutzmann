@@ -18,6 +18,7 @@
     grid-template-columns: 1fr 1fr;
 }
 .grid .grid-item{
+    transition:1s;
     border: 1px solid black;
     border-radius: 3px;
     width: 40vw;
@@ -25,9 +26,13 @@
     background-color: white;
     box-shadow: 2px 3px 6px 4px rgba(20, 20, 20, 0.301);
 }
+.grid a:hover div{
+    width: 45vw;
+    height: 35vh;
+}
 .item1{
     background-size: cover;
-    background-image: url(../images/DSC08961.JPG);
+    background-image: url(../images/DSC09043.JPG);
 }
 .item2{
     background-size: cover;
@@ -47,5 +52,5 @@
 }
 .item6{
     background-size: cover;
-    background-image: url(../images/DSC08832.JPG);
+    background-image: url(../images/DSC09039.JPG);
 }
