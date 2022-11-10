@@ -1,0 +1,51 @@
+/*Ajustes*/
+.presentation{
+    height: auto;
+    
+}
+.presentation .contacto{
+    height: auto;
+    background-color: #00000012;
+    padding-bottom:10vh;
+}
+/*Style galeria*/
+.grid{
+    margin: auto ; 
+    display: grid; 
+    width: 80vw;
+    row-gap: 3vh;
+    column-gap: 2.5vw;
+    grid-template-columns: 1fr 1fr;
+}
+.grid .grid-item{
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 40vw;
+    height: 30vh;
+    background-color: white;
+    box-shadow: 2px 3px 6px 4px rgba(20, 20, 20, 0.301);
+}
+.item1{
+    background-size: cover;
+    background-image: url(../images/DSC08961.JPG);
+}
+.item2{
+    background-size: cover;
+    background-image: url(../images/DSC08807.JPG);
+}
+.item3{
+    background-size: cover;
+    background-image: url(../images/DSC08828.JPG);
+}
+.item4{
+    background-size: cover;
+    background-image: url(../images/DSC08752.JPG);
+}
+.item5{
+    background-size: cover;
+    background-image: url(../images/DSC08733.JPG);
+}
+.item6{
+    background-size: cover;
+    background-image: url(../images/DSC08832.JPG);
+}
