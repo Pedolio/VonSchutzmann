@@ -22,13 +22,14 @@
     border: 1px solid black;
     border-radius: 3px;
     width: 40vw;
-    height: 30vh;
+    height: 40vh;
     background-color: white;
     box-shadow: 2px 3px 6px 4px rgba(20, 20, 20, 0.301);
+    background-position: center;
 }
 .grid a:hover div{
     width: 45vw;
-    height: 35vh;
+    height: 45vh;
 }
 .item1{
     background-size: cover;
@@ -36,7 +37,7 @@
 }
 .item2{
     background-size: cover;
-    background-image: url(../images/DSC08807.JPG);
+    background-image: url(../images/DSC09115.JPG);
 }
 .item3{
     background-size: cover;
@@ -48,9 +49,25 @@
 }
 .item5{
     background-size: cover;
-    background-image: url(../images/DSC08733.JPG);
+    background-image: url(../images/DSC09061.JPG);
 }
 .item6{
     background-size: cover;
     background-image: url(../images/DSC09039.JPG);
+}
+.item7{
+    background-size: cover;
+    background-image: url(../images/DSC09106.JPG);
+}
+.item8{
+    background-size: cover;
+    background-image: url(../images/DSC09108.JPG);
+}
+.item9{
+    background-size: cover;
+    background-image: url(../images/DSC09127.JPG);
+}
+.item10{
+    background-size: cover;
+    background-image: url(../images/DSC09214.JPG);
 }
