@@ -121,10 +121,11 @@ main .content-1 .content-1-izq img{
 /*Content 2*/
 main .content-2{
     height: 40vh;
-    background-color: #749F82;
+    background-image: url(../images/Proyecto\ nuevo.jpg);
     color: white;
     display: flex;
     padding: 8vw;
+    padding-top: 20vh;
     padding-bottom: 10vw;
 
 }
@@ -162,4 +163,18 @@ main .content-3 img:hover{
     width: 27vw;
     height: 27vh;
 
+}
+
+/*Adiestramiento*/
+.presentation-adiestramiento{
+    background-image: url(../images/cachorritoBanner.jpg);
+}
+main .content-1-adiestr{
+    height: 40vh;
+}
+/*Video*/
+.video iframe{
+    margin-top: 60vh;
+    width: 60vw;
+    height: 50vh;
 }
